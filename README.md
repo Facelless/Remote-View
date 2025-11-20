@@ -1,24 +1,24 @@
-# 🖥️ RemoteView - Monitoramento Remoto de Tela
+# 🖥️ RemoteView - Remote Screen Monitoring
 
-O **RemoteView** é um sistema de monitoramento remoto desenvolvido em Python, que utiliza **sockets** para permitir a captura e transmissão da tela de um computador em tempo real para outro dispositivo.
+**RemoteView** is a remote monitoring system built in Python that uses **sockets** to capture and stream a computer screen in real time to another device.
 
-## 📌 Recursos
+## 📌 Features
 
-- 🎥 **Transmissão em Tempo Real** – Visualize a tela do dispositivo monitorado sem atrasos significativos.
-- 🔄 **Comunicação via Sockets** – Conexão eficiente entre cliente e servidor.
-- 🖥️ **Fácil Integração** – Pode ser adaptado para diferentes usos, como suporte remoto e vigilância.
-- 🛠️ **Código Personalizável** – Modifique e expanda conforme necessário.
+- 🎥 **Real-Time Streaming** – View the monitored device’s screen with minimal delay.  
+- 🔄 **Socket-Based Communication** – Efficient client–server connection for smooth data transfer.  
+- 🖥️ **Easy Integration** – Can be adapted for various uses such as remote support or surveillance.  
+- 🛠️ **Customizable Code** – Modify and expand the project as needed.
 
-## 🛠 Instalação & Uso
+## 🛠 Installation & Usage
 
-### 🔹 Requisitos
+### 🔹 Requirements
 
 - 🐍 **Python 3.6+**
-- 📦 **Bibliotecas Necessárias**: `socket`, `opencv-python`, `numpy`, `pyautogui`
+- 📦 **Required Libraries**: `socket`, `opencv-python`, `numpy`, `pyautogui`
 
-### 🚀 Como Executar
+### 🚀 Running the Project
 
-Clone o repositório e instale as dependências:
+Clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/Facelless/Remote-View.git
@@ -26,31 +26,28 @@ cd Remote-View
 pip install -r requirements.txt
 ```
 
-### 🖥️ Iniciando o Servidor
+### 🖥️ Starting the Server
 
 ```bash
 python main.py
 ```
 
-### 💻 Iniciando o Cliente
+### 💻 Starting the Client
 
 ```bash
 python server.py
 ```
 
-## 📖 Como Funciona
+## 📖 How It Works
 
-- O **servidor** captura e transmite a tela para os clientes conectados.
-- O **cliente** recebe e exibe a transmissão em tempo real.
-- Comunicação baseada em **sockets** para garantir eficiência e estabilidade.
+- The **server** captures and streams the screen to connected clients.  
+- The **client** receives and displays the real-time screen stream.  
+- Communication relies on **sockets** to ensure efficient and stable transmission.
 
+## 📜 License
 
-
-## 📜 Licença
-
-Este projeto está licenciado sob a **MIT License**.
+This project is licensed under the **MIT License**.
 
 ---
 
-🚀 Aproveite e torne o monitoramento remoto mais eficiente com **RemoteView**!
-
+🚀 Make remote monitoring faster and more efficient with **RemoteView**!
